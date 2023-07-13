@@ -3,7 +3,7 @@
 
 For this pattern we could use the same exact example as before, as middlewares in Express are somehow handlers that either process a request or pass it to the next handler.
 
-If you'd like another example, think about any system in which you have certain information to process along many steps. At each step a different entity is in charge of performing an action, and the information only gets passed to another entity if a certain condition is met.
+Another example, think about any system in which you have certain information to process along many steps. At each step a different entity is in charge of performing an action, and the information only gets passed to another entity if a certain condition is met.
 
 A typical front-end app that consumes an API could work as an example:
 
